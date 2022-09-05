@@ -1,0 +1,4 @@
+#Sun Sep 04 03:23:30 WAT 2022
+base.0=/home/evan/Desktop/Flutter/smartwristband/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

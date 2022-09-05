@@ -1,0 +1,4 @@
+#Mon Sep 05 00:40:04 WAT 2022
+base.0=/home/evan/Desktop/Flutter/smartwristband/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
