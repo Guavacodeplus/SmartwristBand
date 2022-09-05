@@ -102,10 +102,14 @@ class _MQTTViewState extends State<MQTTView> {
           SizedBox(
             height: 260,
             width: double.infinity,
-            child: Image.network(
-              "https://media.self.com/photos/617811dba28304b5a601fc8c/4:3/w_2560%2Cc_limit/GettyImages-1265249194.jpg",
+            child: Image.asset(
+              "images/img1.jpeg",
               fit: BoxFit.cover,
             ),
+            // child: Image.network(
+            //   "https://media.self.com/photos/617811dba28304b5a601fc8c/4:3/w_2560%2Cc_limit/GettyImages-1265249194.jpg",
+            //   fit: BoxFit.cover,
+            // ),
           ),
           uname == "" ? _login() : _buildColumn(),
         ],
@@ -144,8 +148,7 @@ class _MQTTViewState extends State<MQTTView> {
                     border: Border.all(color: Colors.black, width: 2),
                     borderRadius: const BorderRadius.all(Radius.circular(20)),
                     image: const DecorationImage(
-                        image: NetworkImage(
-                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXVWiEPKRYb5FhMLbxnkG6KgEQvLKkQ8uqSA&usqp=CAU"))),
+                        image: AssetImage("images/tmp.png"))),
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Column(
@@ -164,8 +167,7 @@ class _MQTTViewState extends State<MQTTView> {
                     border: Border.all(color: Colors.black, width: 2),
                     borderRadius: const BorderRadius.all(Radius.circular(20)),
                     image: const DecorationImage(
-                        image: NetworkImage(
-                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKrAsYk_wLKwUXEndbkq3w52DR6-OzaulLrQ&usqp=CAU"))),
+                        image: AssetImage("images/air.png"))),
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Column(
@@ -194,8 +196,7 @@ class _MQTTViewState extends State<MQTTView> {
                     border: Border.all(color: Colors.black, width: 2),
                     borderRadius: const BorderRadius.all(Radius.circular(20)),
                     image: const DecorationImage(
-                        image: NetworkImage(
-                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfMLukKIIGq8esuEcEorIDEbJW1ezQMqR4g&usqp=CAU"))),
+                        image: AssetImage("images/hum.png"))),
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Column(
@@ -214,8 +215,7 @@ class _MQTTViewState extends State<MQTTView> {
                     border: Border.all(color: Colors.black, width: 2),
                     borderRadius: const BorderRadius.all(Radius.circular(20)),
                     image: const DecorationImage(
-                        image: NetworkImage(
-                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZL_oTNpRf8xzUiXMC8wAsGWXOec-aIqTIRg&usqp=CAU"))),
+                        image: AssetImage("images/bpm.jpeg"))),
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Column(
